@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="ABOUT US"
+        android:textColor="#151414"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textZakat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Zakat Gold SDN BHD"
+        android:textColor="#FF9800"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="71dp"
+        android:text="Address: Lot 12651, Jalan Changkat Jong, 36000 Teluk Intan, Perak"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/callIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="73dp"
+        android:background="#DAA520"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:text="Phone Number: 05-6216646"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="121dp"
+        android:background="#DAA520"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+    <ImageView
+        android:id="@+id/operationIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="168dp"
+        android:background="#DAA520"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/emailIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="218dp"
+        android:background="#DAA520"
+        app:srcCompat="@android:drawable/sym_action_email" />
+
+    <TextView
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="129dp"
+        android:text="Open: 8:00 am Close: 10:00 p.m."
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="177dp"
+        android:text="zakat_gold00@gmail.com"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textLink"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="@string/messageWithLink"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorLink="#FF9800"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="1000dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textZakat"
+        android:layout_alignLeft="@+id/textZakat"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="-71dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginRight="50dp"
+        android:text="Islam views gold as a symbol of valuable wealth and ability to grow. Due to the privilege possessed by gold and being a measure of wealth, Islam obligates zakat on gold."
+        android:textAlignment="center"
+        android:textColor="#161616"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="297dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/zakat_removebg_preview" />
+
+</RelativeLayout>
